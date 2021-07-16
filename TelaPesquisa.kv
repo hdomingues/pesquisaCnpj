@@ -1,0 +1,48 @@
+<TelaPesquisa>:
+    cnpj: cnpj
+
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.width - 90, root.height -85
+        pos: 30, 30
+
+        Label:
+            text: " Pesquisa CNPJ na base da Receita Federal"
+            color: (0, 1, 1, 1)
+            font_size: 25
+
+        Label:
+            text: ''
+
+        Label:
+            text: 'Informe o(s) numero(s) do CNPJ:'
+            halign: 'left'
+            font_size: 18
+
+        Label:
+            text: "Muitos? separe-os com ponto e virgula. \nEx: 99999999999999;33333333333333"
+            font_size: '12'
+            halign: 'left'
+
+        TextInput:
+            id: cnpj
+            multiline: True
+            halign: 'center'
+
+        Label:
+            text: ''
+
+        GridLayout:
+            cols:2
+
+            Button:
+                text:"Pesquisar"
+                on_press: root.btn()
+                font_size: 17
+
+            Button:
+                text:"Sair"
+                on_release: MyApp().on_stop()
+                font_size: 17
+
+TelaPesquisa:

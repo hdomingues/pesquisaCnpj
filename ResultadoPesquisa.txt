@@ -1,0 +1,16 @@
+Nome Empresa: CMA INDUSTRIA DE COMPONENTES PLASTICOS AUTOMOTIVOS LTDA.
+Atividade Principal: [{'code': '00.00-0-00', 'text': '********'}]
+Email: marilda.santos@fcagroup.com
+Nome Fantasia: 
+Tipo: FILIAL
+Situação: BAIXADA
+Data e Hora Pesquisa: 2020-06-19 22:14:34.585516
+
+Nome Empresa: FCA POWERTRAIN BRASIL INDUSTRIA E COMERCIO DE MOTORES LTDA
+Atividade Principal: [{'text': 'Fabricação de motores para automóveis, camionetas e utilitários', 'code': '29.10-7-03'}]
+Email: intimacoes@fcagroup.com
+Nome Fantasia: FPT POWERTRAIN DO BRASIL
+Tipo: MATRIZ
+Situação: ATIVA
+Data e Hora Pesquisa: 2020-06-19 22:14:35.560580
+
